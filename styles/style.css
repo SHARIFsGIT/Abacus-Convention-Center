@@ -1,0 +1,28 @@
+.packages{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+.business-box{
+    box-shadow: 0px 25px 15px 0px rgba(205,235,240,0.8);
+}
+
+.position-box{
+    position: relative;
+    bottom: 50px;
+} 
+
+.hot-button{
+    top: -10px;
+    right:30px;
+}
+
+@media screen and (max-width:768px) {
+    .position-box{
+        bottom: 0px;
+    }
+    .footer-sec {
+        flex-direction: column-reverse;
+        gap: 50px;
+   } 
+}
